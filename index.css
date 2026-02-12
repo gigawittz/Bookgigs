@@ -1,0 +1,149 @@
+body {
+    background-color: #F8F9FA; /* Light off-white for readability */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* This is your top navigation bar container */
+.division, .dibbi {
+    margin: 10px 0;
+    background-color: #e9ecef; /* Soft gray background for the nav bar */
+    display: flex;             /* Standard flexbox */
+    align-items: center;
+    justify-content: center;   /* Centers the items horizontally */
+    gap: 15px;                 /* Adds even spacing between buttons */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;           /* 'rem' is better for scaling than % */
+    color: #1A374D;            /* Deep Navy */
+    margin: 40px 0 20px 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: #406882; /* Steel Blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #1A374D; /* Darkens on hover */
+}
+
+/* The Dropdown Fix */
+#genre-select {
+    display: inline-block;
+    min-width: 200px;
+    height: 40px;
+    padding: 0 10px;
+    border: 2px solid #1A374D;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    line-height: 1.6;          /* Improves reading comfort */
+    max-width: 800px;          /* Prevents text from stretching too wide */
+    margin: 0 auto;            /* Centers the text block */
+    font-weight: bold;       /* Paragraphs shouldn't usually be bold */
+    color: #444;
+}
+
+img {
+    display: block;
+    margin: 20px auto;         /* Centers your images */
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.spa
+{
+  font-weight: bolder;
+    
+}
+/* Container to center the form on the page */
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+}
+
+.signup-container h2 {
+    color: #1A374D;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #406882;
+}
+
+/* Styling the inputs to be full-width and clean */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    box-sizing: border-box; /* Crucial: prevents width from breaking the layout */
+}
+
+input:focus {
+    border-color: #1A374D;
+    outline: none;
+    box-shadow: 0 0 5px rgba(26, 55, 77, 0.2);
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1A374D;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.signup-btn:hover {
+    background-color: #406882;
+}
+
+.login-link {
+    font-size: 14px;
+    margin-top: 15px;
+}
+.image{
+    display: block;
+    margin: 20px auto;         /* Centers your images */
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+
+}
